@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family:monaco ;
   height: 5000px;
   padding-top: 56px;
 }
@@ -18,4 +19,13 @@ body {
 }
 .jumbotron a:hover {
   color: orange;
+  transition: 0.5s;
+}
+.nav-link:hover {
+  color: rgb(215, 154, 41);
+  transition: 0.5s;
+}
+.about {
+  height: 1000px;
+  background-color: rgb(247, 225, 197);
 }
