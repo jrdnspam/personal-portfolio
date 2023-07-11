@@ -1,0 +1,21 @@
+.bg-img{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  margin-top: -56px;
+}
+
+body {
+  height: 5000px;
+  padding-top: 56px;
+}
+.jumbotron {
+  position: relative;
+}
+.jumbotron a {
+  color: black;
+}
+.jumbotron a:hover {
+  color: orange;
+}
