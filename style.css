@@ -7,15 +7,14 @@
 }
 .hero {
   background: linear-gradient(0deg, rgba(249, 175, 36, 0.914) 0%, rgb(89, 145, 184) 100%);
-  position: absolute;
-  height: 110vh;
-  width: 100vw;
-  margin-top: -56px;
+  
+  height: 1000px;
+  
+  margin-top: -104px;
 }
 
 body {
   font-family:monaco ;
-  height: 3000px;
   padding-top: 56px;
 }
 .jumbotron {
@@ -47,10 +46,9 @@ body {
   
 }
 .subHero {
-  height: 1800px;
-  background: linear-gradient(0deg, rgb(159, 124, 83) 0%, rgb(250, 224, 193) 100%);
-  margin-top: 919px;
   
+  background: linear-gradient(0deg, rgb(159, 124, 83) 0%, rgb(250, 224, 193) 100%);
+  position: absolute;
 }
 .aboutMeCard {
   margin-top: 100px;
@@ -66,4 +64,11 @@ body {
 }
 .footer {
   margin-top: 200px;
+}
+.contactCard a {
+  color: orange;
+}
+.contactCard a:hover {
+  color: black;
+  transition: 0.5s;
 }
