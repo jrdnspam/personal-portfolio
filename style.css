@@ -5,6 +5,13 @@
   object-fit: cover;
   margin-top: -56px;
 }
+.hero {
+  background: linear-gradient(0deg, rgba(249, 175, 36, 0.914) 0%, rgb(89, 145, 184) 100%);
+  position: absolute;
+  height: 110vh;
+  width: 100vw;
+  margin-top: -56px;
+}
 
 body {
   font-family:monaco ;
@@ -13,6 +20,7 @@ body {
 }
 .jumbotron {
   position: relative;
+  padding-top: 100px;
 }
 .jumbotron a {
   color: black;
@@ -25,9 +33,19 @@ body {
   color: rgb(215, 154, 41);
   transition: 0.5s;
 }
-.about {
-  height: 1000px;
-  background-color: rgb(247, 225, 197);
-  position: absolute;
-  margin-top: 224px;
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
+  background-size: cover;
+  background-position: center;
+  
+}
+.subHero {
+  height: 3000px;
+  background: linear-gradient(0deg, rgb(159, 124, 83) 0%, rgb(250, 224, 193) 100%);
+  margin-top: 882px;
+  
+}
+.aboutMeCard {
+  margin-top: 200px;
 }
