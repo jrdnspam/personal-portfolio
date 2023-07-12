@@ -50,11 +50,10 @@ body {
   background: linear-gradient(0deg, rgb(159, 124, 83) 0%, rgb(250, 224, 193) 100%);
   position: absolute;
 }
-.aboutMeCard {
-  margin-top: 100px;
-}
+
 .portfolioContainer {
-  margin-top: 100px;
+  height: 100vh;
+  
 }
 .subPortfolio {
   margin-top: 40px;
@@ -71,4 +70,7 @@ body {
 .contactCard a:hover {
   color: black;
   transition: 0.5s;
+}
+.aboutMe {
+  height: 100vh;
 }
