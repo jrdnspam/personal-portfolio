@@ -63,3 +63,6 @@ body {
 .aboutMe {
   height: 100vh;
 }
+.footerTop {
+  margin-top: 80px;
+}
